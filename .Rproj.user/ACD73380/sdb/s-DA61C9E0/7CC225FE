@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# SWC R Intro\n\ngetwd()\n\n# read in cat data\ncats <- read.csv(\"data/feline-data.csv\")\ncats$coat\ncats$weight + 2\ntypeof(cats)\n\nquiz_vector_1 <-  c(2, 6, '3')\ntypeof(quiz_vector_1)\nquiz_vector_2 <- c('a', TRUE)\ntypeof(quiz_vector_2)\nquiz_vecotr_3 <- c(0, TRUE)\ntypeof(quiz_vecotr_3)\n# factors\nstr(cats$coat)\ncats$coat\nlevels(cats$coat)\ncats$coat <- factor(cats$coat, levels = c(\"tabby\", \"calico\", \"black\"))\n\n matrix (1:12, ncol=2, byrow=TRUE)\n \n #dataframes\n gapminder <- read.csv(\"data/gapminder-FiveYearData.csv\")\n str(gapminder)\n x <- c(5.4, 6.2, 7.1, 4.8,7.5)\n names(x) <- c('a','b','c','d','e')\n names(x) != c('a', 'b')\n !names(x) %in% c('a','c')\n print(x)\n print(x[2:4])\n print(x[-c(1,4)])\nx[x > 4 & x < 7]\nx[c('b','c','d')]\n\nhead(gapminder$pop)\nhead(gapminder[3])\nhead(gapminder[\"pop\"])\ngapminder[1:3, ]\ngapminder[gapminder$year == 1957,]\ngapminder[,-c(1:4)]\ngapminder[gapminder$lifeExp > 80,]\ngapminder[c(1, 4, 5)]\n\n#REcap: Subsettin\n\nx <- 1:10\n\nx[c(TRUE, FALSE, TRUE)]\n\n#vectorization and subsetting\nx[x > 3]\n\n#Gapminder\nhead(gapminder)\ngapminder[gapminder$pop < 100000, c(TRUE, FALSE)]\n",
+    "created" : 1522269019279.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1827035754",
+    "id" : "7CC225FE",
+    "lastKnownWriteTime" : 1522270638,
+    "last_content_update" : 1522355882339,
+    "path" : "~/R-intro/r-intro-script.R",
+    "project_path" : "r-intro-script.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

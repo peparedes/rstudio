@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "coat,weight,likes_string\ncalico,2.1,1\nblack,5.0,0\ntabby,3.2,1\nblack,4.1,1\n",
+    "created" : 1522270762549.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "698397338",
+    "id" : "4E0ECF62",
+    "lastKnownWriteTime" : 1522270851,
+    "last_content_update" : 1522270851929,
+    "path" : "~/R-intro/data/feline-data.csv",
+    "project_path" : "data/feline-data.csv",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
